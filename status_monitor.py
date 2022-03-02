@@ -13,7 +13,7 @@ class Status_Monitor:
         start = time.time()
         api_response = requests.get(url)
         '''
-            Any status code type does not matter here
+            Any status codes type does not matter here
             because we just want to measure the fully response
             transfer from the server.
         
